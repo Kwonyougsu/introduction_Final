@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
         Instantiate(ArrowPrefabs,spawn,Quaternion.identity);
         //Quaternion.identity => 회전이 존재하지 않음
     }
-
     public void GameOver()
     {
         Debug.LogWarning("GameOver");

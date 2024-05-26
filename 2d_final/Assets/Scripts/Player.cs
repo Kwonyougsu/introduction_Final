@@ -37,8 +37,6 @@ public class Player : MonoBehaviour
             {
                 GameManager.instance.GameOver();
             }
-            
-
         }
     }
 }
